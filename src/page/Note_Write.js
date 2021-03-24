@@ -19,6 +19,7 @@ export const Note_Write = () => {
         <Wrap style={{backgroundColor: ContentColor[user.theme]}}>
             <Header state={'Write'} color={HeadColor[UserTheme]}/>
             <Write/>
+
         </Wrap>
     </>
 }
