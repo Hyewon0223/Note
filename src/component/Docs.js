@@ -3,7 +3,9 @@ import styled from 'styled-components';
 import Icon_file from '../img/file.png';
 
 export const Docs = (props) => {
-
+    const [docs, setDocs] = useState({
+        title : '',
+    })
     return <>
         <FileDiv>
             <img src = {Icon_file}/>
